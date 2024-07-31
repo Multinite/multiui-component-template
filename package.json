@@ -1,6 +1,10 @@
 {
   "name": "multiui-component-template",
   "private": true,
+  "workspaces": [
+    "apps/*",
+    "components/*"
+  ],
   "scripts": {
     "build": "turbo build",
     "dev": "turbo dev",
