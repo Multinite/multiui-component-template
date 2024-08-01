@@ -6,6 +6,5 @@
     "allowJs": true,
     "moduleDetection": "force",
     "isolatedModules": true,
-    "verbatimModuleSyntax": true
   }
 }
