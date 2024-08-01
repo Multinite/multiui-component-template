@@ -15,7 +15,7 @@
       "outputs": []
     },
     "test": {
-      "outputs": ["coverage/**"]
+      "cache": false
     }
   }
 }
