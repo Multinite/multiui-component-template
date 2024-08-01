@@ -8,12 +8,11 @@
   ],
   "scripts": {
     "build": "turbo build",
-    "dev": "turbo dev",
+    "dev": "turbo dev --concurrency=11",
     "lint": "turbo lint",
     "test": "turbo run test --filter=./packages/**/*",
     "test:react": "turbo run test --filter=react-app",
     "test:next": "turbo run test --filter=next-app",
-    "test:angular": "turbo run test --filter=angular-app",
     "test:vue": "turbo run test --filter=vue-app",
     "test:svelte": "turbo run test --filter=svelte-app",
     "format": "prettier --write \"**/*.{ts,tsx,md}\""

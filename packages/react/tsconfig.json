@@ -1,7 +1,8 @@
 {
   "extends": "../ts/tsconfig.json",
   "compilerOptions": {
-    "outDir": "dist"
+    "outDir": "dist",
+    "jsx": "preserve"
   },
   "include": ["src"],
   "exclude": ["node_modules", "dist"]
