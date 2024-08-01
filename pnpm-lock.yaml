@@ -251,6 +251,12 @@ importers:
         specifier: ^5.5.4
         version: 5.5.4
 
+  packages/vue:
+    devDependencies:
+      typescript:
+        specifier: ^5.5.4
+        version: 5.5.4
+
 packages:
 
   '@aashutoshrathi/word-wrap@1.2.6':
