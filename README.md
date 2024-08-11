@@ -53,3 +53,7 @@ npm run lint
 
 To publish your component, we recommend you read our documentation on publishing a component for MultiUI:
 https://multiui.org/docs/components/publish-component
+
+## Is it ready?
+
+Read the [todo.md](todo.md) file to see what's ready and what's not.
