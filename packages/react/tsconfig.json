@@ -2,7 +2,9 @@
   "extends": "../ts/tsconfig.json",
   "compilerOptions": {
     "outDir": "dist",
-    "jsx": "preserve"
+    "jsx": "preserve",
+    "moduleResolution": "NodeNext",
+    "module": "NodeNext"
   },
   "include": ["src"],
   "exclude": ["node_modules", "dist"]
