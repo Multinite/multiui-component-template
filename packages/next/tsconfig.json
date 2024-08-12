@@ -10,7 +10,7 @@
     "isolatedModules": true,
     "declaration": true,
     "jsx": "preserve",
-    "moduleResolution": "Bundler"
+    // "moduleResolution": "Bundler" // disabled because it would cause nextjs to fail to build.
   },
   "exclude": [
     "node_modules",
