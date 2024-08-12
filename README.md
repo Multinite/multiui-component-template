@@ -56,4 +56,4 @@ https://multiui.org/docs/components/publish-component
 
 ## Is it ready?
 
-Read the [todo.md](todo.md) file to see what's ready and what's not.
+Read the [todo.md](TODO.md) file to see what's ready and what's not.
