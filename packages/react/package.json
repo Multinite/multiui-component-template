@@ -1,5 +1,5 @@
 {
-  "name": "react",
+  "name": "react-pkg",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
@@ -20,6 +20,7 @@
     "typescript": "^5.5.4"
   },
   "dependencies": {
+    "react": "^18.3.1",
     "tailwindcss": "^3.4.1"
   }
 }

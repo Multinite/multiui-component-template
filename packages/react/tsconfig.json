@@ -2,7 +2,7 @@
   "extends": "../ts/tsconfig.json",
   "compilerOptions": {
     "outDir": "dist",
-    "jsx": "preserve",
+    "jsx": "react-jsx",
     "moduleResolution": "NodeNext",
     "module": "NodeNext"
   },
