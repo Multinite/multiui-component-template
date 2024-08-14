@@ -4,6 +4,7 @@
 | ------- | ----- |
 | Next.js | ✅    |
 | React   | ✅    |
+| Remix   | ❌    |
 | Svelte  | ❌    |
 | Vue     | ❌    |
 | Vanilla | ❌    |
