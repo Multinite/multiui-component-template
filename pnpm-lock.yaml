@@ -239,6 +239,9 @@ importers:
       '@types/node':
         specifier: ^20
         version: 20.14.13
+      '@types/react':
+        specifier: ^18.3.3
+        version: 18.3.3
       babel-jest:
         specifier: ^29.7.0
         version: 29.7.0(@babel/core@7.25.2)
@@ -8476,7 +8479,7 @@ snapshots:
 
   '@types/react-dom@18.2.19':
     dependencies:
-      '@types/react': 18.2.61
+      '@types/react': 18.3.3
 
   '@types/react-dom@18.3.0':
     dependencies:
