@@ -19,5 +19,8 @@
     "ts-node": "^10.9.2",
     "typescript": "^5.5.4",
     "vue-jest": "^3.0.7"
+  },
+  "dependencies": {
+    "jest-environment-jsdom": "^29.7.0"
   }
 }
