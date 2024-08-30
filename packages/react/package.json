@@ -21,6 +21,7 @@
     "typescript": "^5.5.4"
   },
   "dependencies": {
+    "@multinite_official/multiui": "latest",
     "jest-environment-jsdom": "^29.7.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
