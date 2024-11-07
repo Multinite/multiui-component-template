@@ -1,59 +1,67 @@
 # MultiUI Component Template
 
-This is an official starter template for creating a component for MultiUI.
+### This is an official starter template for creating a component for MultiUI.
 
-## What's inside
+<br />
 
-This project is a monorepo that contains Next.js, Vue, Svelte and Angular apps.
-In a sense, you create components in the `packages` directory and then use them in the `apps` directory.
+## 🤔 What's inside
 
-## How do I get started?
+This project is a simple TurboRepo project containing the following folders:
+
+- `packages/component`: Contains the source code for your component.
+- `apps/demo-app`: Contains the source code for a NextJS demo app to render your component.
+
+<br />
+
+## ⭐️ How do I get started?
 
 We recommend you read our documentation on creating a component for MultiUI:
 https://multiui.org/docs/components/create-component
 
-To get started, create your first component, then run the following command:
-
+To get started, follow these steps:
+1. install the dependencies:
 ```sh
-npm run dev
+pnpm install
 ```
 
-This will start a development server using [Turborepo](https://turbo.build/repo).
-There should be 5 instances running:
+2. Start development:
+```sh
+pnpm dev
+```
 
-- Next.js App
-- Vue App
-- Svelte App
-- Angular App
-- TypeScript dev server watching your component!
+There should be two instances running:
 
-## Buidling, testing and linting
+- NextJS dev server.
+- TypeScript dev server watching your component.
 
-We use [turbo](https://turbo.build/repo) to manage our monorepo.
+You can now edit your component in the `packages/component/src` folder and see the changes in your browser.
+
 <br />
-test your component, run the following command:
 
-```sh
-npm run test
-```
+## 🧪 What's next? Building, Testing & Linting
 
-build your component, run the following command:
+To build your component, run the following command:
 
 ```sh
 npm run build
 ```
 
-lint your component, run the following command:
+To test your component, run the following command:
+
+```sh
+npm run test
+```
+
+
+To lint your component, run the following command:
 
 ```sh
 npm run lint
 ```
 
-## Publishing
+<br />
+
+## 📜 What about publishing?
 
 To publish your component, we recommend you read our documentation on publishing a component for MultiUI:
 https://multiui.org/docs/components/publish-component
-
-## Is it ready?
-
-Read the [todo.md](TODO.md) file to see what's ready and what's not.
