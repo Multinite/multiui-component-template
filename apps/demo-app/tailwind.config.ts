@@ -1,4 +1,6 @@
 import type { Config } from "tailwindcss";
+import { MultiUIPlugin } from "@multinite_official/multiui";
+import { default_theme } from "./src/multiui/themes";
 
 const config: Config = {
   content: [
@@ -16,6 +18,16 @@ const config: Config = {
       },
     },
   },
-  plugins: [],
+  plugins: [
+    MultiUIPlugin(
+      {
+        components_output_dir: "./src/multiui/components",
+        package_manager: "npm",
+        framework: "react",
+        theme_names: ["default"],
+      },
+      default_theme
+    ),
+  ],
 };
 export default config;
