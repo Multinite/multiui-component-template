@@ -1,7 +1,7 @@
 {
-  "name": "react-pkg",
-  "main": "dist/index.js",
-  "types": "dist/index.d.ts",
+  "name": "my-component",
+  "main": "./src/index.ts",
+  "types": "./dist/index.d.ts",
   "scripts": {
     "build": "tsc",
     "dev": "tsc -w",
