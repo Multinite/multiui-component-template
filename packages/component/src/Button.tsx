@@ -1,3 +1,3 @@
-export function Button({ children }: { children: React.ReactNode }) {
-  return <button>{children}</button>;
-}
+import { createButton } from "./lib";
+
+export const Button = createButton;

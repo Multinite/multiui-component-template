@@ -1,6 +1,7 @@
 {
   "name": "my-component",
   "main": "./src/index.ts",
+  "type": "module",
   "types": "./dist/index.d.ts",
   "scripts": {
     "build": "tsc",
